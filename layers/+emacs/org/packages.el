@@ -560,7 +560,6 @@ Headline^^            Visit entry^^               Filter^^                    Da
 
 (defun org/init-org-journal ()
   (use-package org-journal
-    :if org-enable-org-journal-support
     :defer t
     :init
     (progn
